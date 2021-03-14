@@ -71,7 +71,7 @@ $(function () {
 
                 // 登录成功，跳转到 首页，保存token
                 localStorage.getItem(res.token);
-                // location.href = '/index.html';
+                location.href = '/index.html';
             }
         });
     });
