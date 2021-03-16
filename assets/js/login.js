@@ -70,7 +70,7 @@ $(function () {
                 };
 
                 // 登录成功，跳转到 首页，保存token
-                localStorage.getItem(res.token);
+                localStorage.setItem("token", res.token);
                 location.href = '/index.html';
             }
         });
